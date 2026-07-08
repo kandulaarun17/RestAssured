@@ -18,6 +18,7 @@ public class S_D_Demo {
 		CustomerPOJO_Response customer = res.as(CustomerPOJO_Response.class);
 
 		System.out.println(customer.getCity());
+		System.out.println(customer.getName());
 		System.out.println(res.statusCode());
 	}
 
