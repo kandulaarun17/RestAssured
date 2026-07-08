@@ -19,7 +19,7 @@ public class S_D_Demo {
 
 		System.out.println(customer.getCity());
 		System.out.println(customer.getName());
-		System.out.println(customer.getEmail());
+		System.out.println("Email: " + customer.getEmail());
 		System.out.println(res.statusCode());
 	}
 
